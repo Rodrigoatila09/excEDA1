@@ -1,12 +1,5 @@
-int encaixa(int a, int b){
-
-//     printf("Digite o primeiro numero\n");
-//     scanf("%d",&a);
-//     printf("Digite o segundo numero\n");
-
-    
-
-//     scanf("%d",&b);
-    
-    
-// }
+ero_A % incrementar_zero == b) {
+        printf("1");
+    }else{
+        printf("0");
+    }
