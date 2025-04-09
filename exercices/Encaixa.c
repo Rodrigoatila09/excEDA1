@@ -1,26 +1,19 @@
-#include <stdio.h>
 #include <math.h>
 #include <string.h>
 
-void descobrirLenNumero(char * numeroB){
-
-    scanf("%s", numeroB);
-
-    size_t convertN;
-    convertN = strlen(numeroB);
-    printf("%zu", convertN);    
+int descobrirLenNumero(int number_B){
+    char numeroString[100];
+    sprintf(numeroString, "%d", number_B);
+    return strlen(numeroString);
 }
 
 int encaixa(int a, int b){
+    int tamanho_b = descobrirLenNumero(b);
+    int potencia = (int) pow(10, tamanho_b);
 
-    printf("Digite o primeiro numero\n");
-    scanf("%d",&a);
-    printf("Digite o segundo numero\n");
-    scanf("%d",&b);
-    
-    int valor_B = b;
-    
-    
-    
+    if (a % potencia == b) {
+        return 1;
+    } else {
+        return 0;
+    }
 }
-
