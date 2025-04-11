@@ -1,5 +1,1 @@
-ero_A % incrementar_zero == b) {
-        printf("1");
-    }else{
-        printf("0");
-    }
+        for(int j = 0;j< (i*1) -1 ; j++){
