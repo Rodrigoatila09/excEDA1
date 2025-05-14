@@ -1,1 +1,3 @@
-        for(int j = 0;j< (i*1) -1 ; j++){
+   // for(int k = 0; k<=n;k++){
+            //     matriz[i][j] = j+1;
+            // }
